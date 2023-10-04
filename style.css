@@ -6,21 +6,24 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: baseline;
+    padding: 0px 15%;
 }
 
 .header h2 {
     color:#F9FAF8 ;
     font-size: 24px;
+    flex: 1;
 
 }
 
 .header ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 24px;
+    flex: 1;
 }
 
 .header a {
