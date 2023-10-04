@@ -12,7 +12,7 @@ body {
 }
 
 .header h2 {
-    color:#F9FAF8 ;
+    color:#F9FAF8;
     font-size: 24px;
     flex: 1;
 
@@ -31,6 +31,50 @@ body {
     font-size: 18px;
     text-decoration: none;
 }
+
+.summary {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+    padding: 40px 15%;
+}
+
+.summary-text {
+    flex: 1;
+}
+
+.summary-text h3 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.summary-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.summary-text button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-width: 0px;
+}
+
+.summary-img {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
 
 .footer {
     background-color: #1F2937;
