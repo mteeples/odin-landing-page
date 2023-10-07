@@ -38,7 +38,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: stretch;
     padding: 40px 15%;
 }
 
@@ -70,10 +69,13 @@ body {
 }
 
 .summary-img {
+    height: 200px;
     background-color: grey;
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .boxes {
