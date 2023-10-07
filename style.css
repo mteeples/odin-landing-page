@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    background-color: #1F2937;
 }
 
 .header {
@@ -76,7 +77,11 @@ body {
 }
 
 .boxes {
-    margin: 0px 15%;
+    background-color: white;
+    padding-top: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 80px;
 }
 
 .boxes h3 {
@@ -99,7 +104,7 @@ body {
 }
 
 .boxes-container div img {
-    height: 120px;
+    height: 200px;
     border-radius: 25px;
     border: 2px solid #3882F6;
     margin-bottom: 10px;
@@ -108,6 +113,24 @@ body {
 .boxes-container p {
     text-align: center;
     margin-top: 0px;
+}
+
+.quote {
+    padding: 120px 20%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote h3 {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 36px;
 }
 
 .footer {
